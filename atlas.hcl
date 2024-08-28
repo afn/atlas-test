@@ -1,6 +1,6 @@
 env "local" {
   src = "./schema.hcl"
-  dev = "docker://mysql/8/dev"
+  dev = "postgresql://localhost/atlas_test?sslmode=disable"
   migration {
     dir = "file://migrations"
   }
