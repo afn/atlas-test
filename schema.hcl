@@ -26,9 +26,6 @@ table "posts" {
   column "user_id" {
     type = int
   }
-  column "title" {
-    type = varchar(255)
-  }
   column "body" {
     type = text
   }
